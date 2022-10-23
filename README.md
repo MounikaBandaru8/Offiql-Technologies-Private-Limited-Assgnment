@@ -7,7 +7,7 @@ Spring boot project with H2 memory database, performing create, delete, get and 
 http://localhost:8089/h2-console/user.jsp
 http://localhost:8089/h2-console/email.jsp
 # Creating  rest Endpoints
- 1.	POST /user    ( Creates a new user)
+# 1.	POST /user    ( Creates a new user)
  <form method ="post" action="details">
  Enter Customer First Name<input type="text" name="fname"><br>
  Enter Customer Last Name:<input type="text" name="lname"><br>
