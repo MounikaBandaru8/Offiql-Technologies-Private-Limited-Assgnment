@@ -8,17 +8,7 @@ http://localhost:8089/h2-console/user.jsp
 http://localhost:8089/h2-console/email.jsp
 # Creating  rest Endpoints
 # 1.	POST /user    ( Creates a new user)
- <form method ="post" action="details">
- Enter Customer First Name
-	<input type="text" name="fname"><br>
- Enter Customer Last Name:
-	<input type="text" name="lname"><br>
- Enter Customer Email Address:
-	<input type="email" name="cemail"><br>
- Enter Customer Phone Number:
-	<input type="tel" name="cphone"><br>
- <input type="submit" value="submit">
- </form>
+ POST is the HTTP method that is designed to send loads of data to a server from a specified resource. Most common HTML forms on the web operate using this request method.This means that data sent through the POST method will not be visible in the URL, as parameters are not sent along with the URL.I created the post method to create a user by entering details like FirstName,LastName,Email Address,Phone Number
  2.	GET  /users   ( Returns list of users)
   <form action="getdetails" method="get">
     <input type="number" name="cid">
