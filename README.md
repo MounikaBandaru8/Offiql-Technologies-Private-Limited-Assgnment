@@ -15,7 +15,7 @@ Get method is one of the most used HTTP method. The request parameter of the get
     I created a get method to return the user id from usertable.The request parameter of the userid  is appended to the URL.
  # 4.POST /email    (Create an email in DB)
  I created the post method to enter the details into email table  like from,to,subject and body.
-# 55.GET  /emails/count?user={userID} (Returns number of email send by a user)
+# 5.GET  /emails/count?user={userID} (Returns number of email send by a user)
   Using sql query counted the no of emails send by an user by using primarykey userid
 # Finally done Testing the Application
 
