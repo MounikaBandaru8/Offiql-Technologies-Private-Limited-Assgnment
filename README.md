@@ -9,10 +9,14 @@ http://localhost:8089/h2-console/email.jsp
 # Creating  rest Endpoints
 # 1.	POST /user    ( Creates a new user)
  <form method ="post" action="details">
- Enter Customer First Name<input type="text" name="fname"><br>
- Enter Customer Last Name:<input type="text" name="lname"><br>
- Enter Customer Email Address:<input type="email" name="cemail"><br>
- Enter Customer Phone Number:<input type="tel" name="cphone"><br>
+ Enter Customer First Name
+	<input type="text" name="fname"><br>
+ Enter Customer Last Name:
+	<input type="text" name="lname"><br>
+ Enter Customer Email Address:
+	<input type="email" name="cemail"><br>
+ Enter Customer Phone Number:
+	<input type="tel" name="cphone"><br>
  <input type="submit" value="submit">
  </form>
  2.	GET  /users   ( Returns list of users)
